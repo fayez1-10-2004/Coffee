@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomeCOM from './Router/HomeCOM';
 import AboutCOM from './Router/AboutCOM';
