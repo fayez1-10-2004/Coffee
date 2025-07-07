@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { Route, Router, Routes } from 'react-router-dom';
 import './App.css';
-
+import HomeCOM from './Router/HomeCOM';
+import AboutCOM from './Router/AboutCOM';
+import ContactusCOM from './Router/ContactusCOM';
+import MenuCOM from './Router/MenuCOM';
+import ServicesCOM from './Router/ServicesCOM';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Bar from './Components/navbar/Bar';
+import Footer from './Components/Fotter/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+<>
+<Bar/>
+    <Routes>
+<Route path='/' element={<HomeCOM/>} />
+<Route path='/home' element={<HomeCOM/>} />
+<Route path='/about' element={<AboutCOM/>} />
+<Route path='/contact' element={<ContactusCOM/>} />
+<Route path='/menu' element={<MenuCOM/>} />
+<Route path='/services' element={<ServicesCOM/>} />
+    </Routes>
+<Footer/>
+  </>
   );
 }
 
