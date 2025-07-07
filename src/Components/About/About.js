@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './../Home/Home.css'
+import  './../Home/Home.css'
 import coffee from '../../img/about.png'
 import ExampleCarouselImageone from '../../img/carousel-1.jpg';
 import Carousel from 'react-bootstrap/Carousel';

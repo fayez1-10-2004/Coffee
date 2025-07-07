@@ -1,6 +1,5 @@
 import React from 'react';
 import bg from '../../img/bg.jpg';
-import overlay from '../../img/overlay-bottom.png'; // Assuming you might use this for a wave effect or similar
 import './Footer.css';
 import { CiTwitter } from "react-icons/ci";
 import { IoLogoInstagram } from "react-icons/io";

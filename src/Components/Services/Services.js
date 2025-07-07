@@ -1,12 +1,11 @@
 import React from 'react'
-import Servicesstyle from './Services.module.css'
+import  './Services.module.css'
 import { FaAmbulance } from "react-icons/fa";
 import { FaTable } from "react-icons/fa";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { FaCoffee } from "react-icons/fa";
 import ExampleCarouselImageone from '../../img/carousel-1.jpg';
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImagetwo from '../../img/carousel-2.jpg';
 import servicesone from '../../img/service-1.jpg'
 import servicestwo from '../../img/service-2.jpg'
 import servicesthree from '../../img/service-3.jpg'

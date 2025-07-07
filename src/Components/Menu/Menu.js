@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../Home/Home.css'
+import  '../Home/Home.css'
 import Carousel from 'react-bootstrap/Carousel';
 
 import menu1 from '../../img/menu-1.jpg'
